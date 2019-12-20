@@ -44,7 +44,7 @@ function Index() {
       <div className="wrapper">
         <IndexHeader />
         <div className="main">
-          <Loader />
+          {/* <Loader /> */}
           <Images />
           <BasicElements />
           <Navbars />
