@@ -37,8 +37,8 @@ function IndexHeader() {
             <h1 id="focus-logo" className="h1-seo">
               Focus-Logo-Location
             </h1>
-            <div id="webcam-container"></div>
             <div id="label-container"></div>
+            <div id="webcam-container"></div>
             <Button
               id="start-btn"
               color="info"
