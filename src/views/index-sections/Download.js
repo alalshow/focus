@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
 // reactstrap components
-import { Button, Container, Row, Col, UncontrolledTooltip } from "reactstrap";
+import { Button, Container, Row, Col, UncontrolledTooltip } from 'reactstrap';
 
 // core components
 
@@ -54,7 +54,7 @@ function Download() {
             <Col className="ml-auto mr-auto" md="8">
               <h2>Want more?</h2>
               <h5 className="description">
-                We're going to launch{" "}
+                We're going to launch{' '}
                 <a
                   href="http://demos.creative-tim.com/now-ui-kit-pro-react/#/presentation?ref=nukr-index-page"
                   onClick={e => e.preventDefault()}
