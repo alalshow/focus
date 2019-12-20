@@ -2,7 +2,7 @@
 import React from 'react';
 
 // reactstrap components
-import { Container } from 'reactstrap';
+import { Container, Button } from 'reactstrap';
 // core components
 
 function IndexHeader() {
@@ -34,7 +34,32 @@ function IndexHeader() {
         ></div>
         <Container>
           <div className="content-center brand">
-            <h1 className="h1-seo">Focus</h1>
+            <h1 id="focus-logo" className="h1-seo">
+              Focus-Logo-Location
+            </h1>
+            <div id="webcam-container"></div>
+            <div id="label-container"></div>
+            <Button
+              id="start-btn"
+              color="info"
+              size="lg"
+              onClick={() => {
+                init();
+              }}
+            >
+              Start
+            </Button>
+            <Button
+              id="stop-btn"
+              color="danger"
+              style={{ display: 'none' }}
+              size="lg"
+              onClick={() => {
+                stop();
+              }}
+            >
+              Stop
+            </Button>
           </div>
         </Container>
       </div>
