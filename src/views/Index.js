@@ -47,7 +47,7 @@ function Index() {
           {/* <Loader /> */}
           <Images />
           <BasicElements />
-          <Navbars />
+          {/* <Navbars />
           <Tabs />
           <Pagination />
           <Notifications />
@@ -58,7 +58,7 @@ function Index() {
           <CompleteExamples />
           <SignUp />
           <Examples />
-          <Download />
+          <Download /> */}
         </div>
         <DarkFooter />
       </div>
